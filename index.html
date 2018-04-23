@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sample HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Sample HTML page</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Some video</h2>
+            <iframe style="border:0" width="560" height="315" src="https://www.youtube.com/embed/TORSuS3jjn0" allowfullscreen></iframe>
+        </article>
+        <article> 
+           <h2>Table Sample</h2>
+           <table border="1">
+              <tr> 
+              <th></th><th>product 1</th> <th>product2</th> <th>product3</th>
+              <th rowspan="5">Summary</th>
+              </tr>
+               <tr>
+                 <th>Quarter 1</th>  <td>1</td><td>2</td><td>3</td>
+               </tr>
+               <tr>
+                  <th>Quarter 2</th>  <td>4</td><td>5</td><td>6</td>
+               </tr>
+               <tr>
+                  <th>Quarter 3</th>  <td>7</td><td>8</td><td>9</td>
+               </tr>
+               <tr>
+                   <th>Total</th><td colspan="3">X</td>
+               </tr>
+                   
+           </table>
+        </article>
+        <article>lists</article>
+        <ul type="square"> 
+         <li>item 1</li>
+         <li>item 2</li>
+         <li>item 3</li>
+        </ul>
+        <ol type="I">
+         <li>item 1</li>
+         <li>item 2</li>
+         <li>item 3</li>
+        </ol>
+        <article> 
+        <h2>Form</h2>
+        <!-- Method GET: form.php?name=Jon&email=jon@wall.com -->
+            <!-- Method POST: form.php -->
+        <form method="post" action="https://formspree.io/belyy19699@gmail.com">
+            <label for="clientname">Name</label>
+            <input type="text" placeholder="Name"
+            name="clientname" required>
+            <label> Email
+             <input type="email" name="client-email"
+                      placeholder="Email" required>
+                      </label>
+                      <br>
+                    <label>Your passport:
+                    <input type="text" placeholder="AA012345"
+                     required pattern="[A-Z]{2}[\d]{6}"
+                     title="AA012345"
+                     <br>
+                </label>
+                      <label >Your gander</label>
+                      <label>
+                          <input type="radio" name="gender" value="male">Male
+                      </label>
+                         <label>
+                          <input type="radio" name="gender" value="female">Female
+                      </label>
+                         <label>
+                          <input type="radio" name="gender" value="Other"Other
+                      </label>
+            <br>
+            <input type="submit" value="send">
+            <input type="reset" value="clear">
+        </form>
+        </article>
+    </main>
+    </footer>
+        <p>Some footer text</p>
+    </footer>
+    
+</body>
+</html>
